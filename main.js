@@ -11,5 +11,10 @@ function breathAnimation() {
 
   setTimeout(() => {
     text.innerText = 'Hold...';
+
+    setTimeout(() => {
+      text.innerText = 'Breath Out...';
+      container.className = 'container shrink';
+    }, holdTime);
   }, breathTime);
 }
