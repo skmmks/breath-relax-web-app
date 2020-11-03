@@ -5,6 +5,8 @@ const totaltime = 7500;
 const breathTime = (totaltime / 5) * 2;
 const holdTime = totalTime / 5;
 
+breathAnimation();
+
 function breathAnimation() {
   text.innerHTML = 'Breath In...';
   container.className = 'container grow';
