@@ -24,3 +24,13 @@ body {
   position: relative;
   transform: scale(1);
 }
+
+.gradient-circle {
+  background: conic-gradient(red, orange, yellow, green, blue);
+  height: 320px;
+  width: 320px;
+  top: -10px;
+  left: -10px;
+  z-index: -2;
+  position: absolute;
+}
