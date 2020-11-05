@@ -7,4 +7,9 @@
 body {
   font-family: 'montserrat', 'sans-serif';
   min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
 }
