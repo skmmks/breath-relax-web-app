@@ -29,8 +29,9 @@ body {
   background: conic-gradient(red, orange, yellow, green, blue);
   height: 320px;
   width: 320px;
+  position: absolute;
   top: -10px;
   left: -10px;
   z-index: -2;
-  position: absolute;
+  border-radius: 50%;
 }
