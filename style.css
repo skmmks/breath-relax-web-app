@@ -22,4 +22,5 @@ body {
   width: 300px;
   margin: auto;
   position: relative;
+  transform: scale(1);
 }
