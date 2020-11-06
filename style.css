@@ -54,3 +54,11 @@ body {
   width: 20px;
   height: 190px;
 }
+
+.pointer {
+  background-color: #000000;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  display: block;
+}
