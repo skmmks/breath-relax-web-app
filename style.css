@@ -55,6 +55,7 @@ body {
   height: 190px;
   background: red;
   animation: rotate 7.5s linear forwards infinite;
+  transform-origin: bottom center;
 }
 
 .pointer {
